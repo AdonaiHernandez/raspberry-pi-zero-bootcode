@@ -25,3 +25,5 @@ Hay un padding de 200 bytes
 00000240: 0001100011111100: ..         :18fc                     ; bne 0x238
 00000242: 0001111101110010: r.         :1f72                     ; b 0x226
 ```
+
+Recurso usado para desensamble: http://hermanhermitage.github.io/videocore-disjs/dis.html
