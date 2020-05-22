@@ -4,6 +4,7 @@ El bootcode.bin lo unico que hace es parpadear el led de actividad en la placa
 Hay un padding de 200 bytes
 
 # Hex dump
+```
 00000200: 1110100000000001: .... ~     :e801 0010 7e20           ; mov r1, 0x7e200010
 00000206: 0000100000010000: ..         :0810                     ; ld r0, (r1)
 00000208: 1110100011100000: ......     :e8e0 ffff ff1f           ; and r0, 0xff1fffff
@@ -23,3 +24,4 @@ Hay un padding de 200 bytes
 0000023a: 1110100101000000: @...P.     :e940 0000 0050           ; cmp r0, 0x500000
 00000240: 0001100011111100: ..         :18fc                     ; bne 0x238
 00000242: 0001111101110010: r.         :1f72                     ; b 0x226
+```
